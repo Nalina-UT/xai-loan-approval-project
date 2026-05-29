@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1_Score,Interpretability,Notes
+Logistic Regression,0.8791,0.8877,0.8791,0.8823,High,Baseline interpretable model
+Random Forest,0.8901,0.8854,0.8901,0.8851,Low,More complex ensemble model
+Random Forest + XAI,0.8901,0.8854,0.8901,0.8851,High,Random Forest supported by SHAP and LIME
